@@ -5,7 +5,7 @@ if __name__ == "__main__":
     if len(sys.argv) != 2:
         print("Usage: mnmcount <file>", file=sys.stderr)
         sys.exit(-1)
-    spark = get_spark_session()
+    spark = get_spark_session("mnmcountapp")
 
     #get the MnM file from resources folder passed as an argument for the app
     mnmfile = sys.argv[1]
