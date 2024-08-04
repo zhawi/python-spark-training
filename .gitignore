@@ -195,3 +195,5 @@ __blobstorage__
 __azurite_db_blob__.json
 __azurite_db_blob_extent__.json
 
+#Files to be ignored
+Fire_Incidents.csv
